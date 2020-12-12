@@ -8,9 +8,9 @@ using System.Configuration;
 
 namespace DatabaseClientSQL
 {
-    class ConnectToDatabase
+    public class ConnectToDatabase
     {
-        SqlConnection conn;
+        public SqlConnection conn;
 
         void Connect() //коннект к базе данных (fixme), не  хватает отбора данных, поодключается только к текущей локальной бд
         {
