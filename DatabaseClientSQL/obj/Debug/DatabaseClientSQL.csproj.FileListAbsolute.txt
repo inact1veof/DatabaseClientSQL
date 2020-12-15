@@ -19,3 +19,11 @@ C:\Users\Миша\Desktop\DatabaseClientSQL-main\DatabaseClientSQL\DatabaseClien
 C:\Users\Миша\Desktop\DatabaseClientSQL-main\DatabaseClientSQL\DatabaseClientSQL\obj\Debug\DatabaseClientSQL.csproj.CoreCompileInputs.cache
 C:\Users\Миша\Desktop\DatabaseClientSQL-main\DatabaseClientSQL\DatabaseClientSQL\obj\Debug\DatabaseClientSQL.exe
 C:\Users\Миша\Desktop\DatabaseClientSQL-main\DatabaseClientSQL\DatabaseClientSQL\obj\Debug\DatabaseClientSQL.pdb
+C:\Users\Игорь\Desktop\DatabaseClientSQL\DatabaseClientSQL\obj\Debug\DatabaseClientSQL.csprojAssemblyReference.cache
+C:\Users\Игорь\Desktop\DatabaseClientSQL\DatabaseClientSQL\obj\Debug\DatabaseClientSQL.Form1.resources
+C:\Users\Игорь\Desktop\DatabaseClientSQL\DatabaseClientSQL\obj\Debug\DatabaseClientSQL.MainFormShowQueries.resources
+C:\Users\Игорь\Desktop\DatabaseClientSQL\DatabaseClientSQL\obj\Debug\DatabaseClientSQL.Properties.Resources.resources
+C:\Users\Игорь\Desktop\DatabaseClientSQL\DatabaseClientSQL\obj\Debug\DatabaseClientSQL.csproj.GenerateResource.cache
+C:\Users\Игорь\Desktop\DatabaseClientSQL\DatabaseClientSQL\obj\Debug\DatabaseClientSQL.csproj.CoreCompileInputs.cache
+C:\Users\Игорь\Desktop\DatabaseClientSQL\DatabaseClientSQL\obj\Debug\DatabaseClientSQL.exe
+C:\Users\Игорь\Desktop\DatabaseClientSQL\DatabaseClientSQL\obj\Debug\DatabaseClientSQL.pdb

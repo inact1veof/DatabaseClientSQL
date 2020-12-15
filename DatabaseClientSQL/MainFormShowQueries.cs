@@ -10,14 +10,19 @@ using System.Windows.Forms;
 
 namespace DatabaseClientSQL
 {
-    public partial class Form1 : Form
+    public partial class MainFormShowQueries : Form
     {
-        public Form1()
+        public MainFormShowQueries()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ListQueries_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }
