@@ -8,14 +8,15 @@ using System.Configuration;
 
 namespace DatabaseClientSQL
 {
-    public class ConnectToDatabase
+    public static class ConnectToDatabase
     {
-        public SqlConnection conn;
+        public static SqlConnection conn;
 
-        void Connect() //коннект к базе данных (fixme), не  хватает отбора данных, поодключается только к текущей локальной бд
+        public static void Connect() //коннект к базе данных (fixme), не  хватает отбора данных, поодключается только к текущей локальной бд
         {
             string connectionString = @"Data Source = (LocalDB)\MSSQLLocalDB; AttachDbFilename = C:\Users\Игорь\Desktop\DatabaseClientSQL\DatabaseClientSQL\DatabaseClientSQL\MainDatabase.mdf; Integrated Security = True;";
-            using (SqlConnection conn = new SqlConnection(ConfigurationManager.ConnectionStrings[connectionString].ConnectionString))
+            conn = new SqlConnection(ConfigurationManager.ConnectionStrings[connectionString].ConnectionString);
+            using (conn)
             {
                 //создаём таблицу таблиц
                 //string query1 = "CREATE TABLE Tables" +

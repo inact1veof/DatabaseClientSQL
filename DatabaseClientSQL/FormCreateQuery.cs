@@ -16,5 +16,17 @@ namespace DatabaseClientSQL
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int CountTables = 10;
+            int CountAtr = 10;
+            int[] tables = new int[CountTables];
+            int[] att = new int[CountAtr];
+            string query = null;
+            query = QueriesHandler.MakeStringQuery(tables, att);
+            QueriesHandler.MakeQuery(query);
+            this.Close();
+        }
     }
 }
