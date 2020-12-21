@@ -79,9 +79,9 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(13, 107);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(103, 13);
+            this.label2.Size = new System.Drawing.Size(186, 13);
             this.label2.TabIndex = 4;
-            this.label2.Text = "Значение атрибута";
+            this.label2.Text = "Значение атрибутов через запятую";
             // 
             // lbAttribute
             // 
@@ -99,6 +99,7 @@
             this.button1.TabIndex = 6;
             this.button1.Text = "Добавить";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label3
             // 
