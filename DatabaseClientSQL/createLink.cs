@@ -16,5 +16,10 @@ namespace DatabaseClientSQL
         {
             InitializeComponent();
         }
+
+        private void createLink_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

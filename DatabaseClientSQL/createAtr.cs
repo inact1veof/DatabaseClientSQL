@@ -20,6 +20,12 @@ namespace DatabaseClientSQL
         public bool check;
         public int attributeID, tableID;
         public string attributeName, attributeLimitation, attributeType;
+
+        private void createAtr_Load(object sender, EventArgs e)
+        {
+
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
             check = true;
@@ -53,7 +59,8 @@ namespace DatabaseClientSQL
                     catch { check = false; }
                 }
             }
-            catch {check = false; };
+            catch { check = false; };
         }
     }
 }
+

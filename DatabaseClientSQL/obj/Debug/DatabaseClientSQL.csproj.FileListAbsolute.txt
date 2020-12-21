@@ -32,6 +32,9 @@ C:\Users\Игорь\Desktop\DatabaseClientSQL\DatabaseClientSQL\bin\Debug\Databa
 C:\Users\Игорь\Desktop\DatabaseClientSQL\DatabaseClientSQL\bin\Debug\DatabaseClientSQL.exe
 C:\Users\Игорь\Desktop\DatabaseClientSQL\DatabaseClientSQL\bin\Debug\DatabaseClientSQL.pdb
 C:\Users\Игорь\Desktop\DatabaseClientSQL\DatabaseClientSQL\obj\Debug\DatabaseClientSQL.FormCreateQuery.resources
-C:\Users\Игорь\Desktop\DatabaseClientSQL\DatabaseClientSQL\obj\Debug\DatabaseClientSQL.csprojAssemblyReference.cache
 C:\Users\Игорь\Desktop\DatabaseClientSQL\DatabaseClientSQL\obj\Debug\DatabaseClientSQL.FormToConnect.resources
 C:\Users\Игорь\Desktop\DatabaseClientSQL\DatabaseClientSQL\obj\Debug\DatabaseClientSQL.ShowQueryResult.resources
+C:\Users\Игорь\Desktop\DatabaseClientSQL\DatabaseClientSQL\obj\Debug\DatabaseClientSQL.createAtr.resources
+C:\Users\Игорь\Desktop\DatabaseClientSQL\DatabaseClientSQL\obj\Debug\DatabaseClientSQL.createLink.resources
+C:\Users\Игорь\Desktop\DatabaseClientSQL\DatabaseClientSQL\obj\Debug\DatabaseClientSQL.createNewTable.resources
+C:\Users\Игорь\Desktop\DatabaseClientSQL\DatabaseClientSQL\obj\Debug\DatabaseClientSQL.csprojAssemblyReference.cache

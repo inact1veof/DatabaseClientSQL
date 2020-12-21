@@ -21,6 +21,12 @@ namespace DatabaseClientSQL
         public bool check;
         public int tableIndex;
         public string tableName, tableDescription;
+
+        private void createNewTable_Load(object sender, EventArgs e)
+        {
+
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
             check = true;
