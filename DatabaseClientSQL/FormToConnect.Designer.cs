@@ -46,6 +46,7 @@
             this.buttonStartConnect.TabIndex = 0;
             this.buttonStartConnect.Text = "Подключиться";
             this.buttonStartConnect.UseVisualStyleBackColor = true;
+            this.buttonStartConnect.Click += new System.EventHandler(this.buttonStartConnect_Click);
             // 
             // button1
             // 
@@ -108,6 +109,7 @@
             this.Controls.Add(this.buttonStartConnect);
             this.Name = "FormToConnect";
             this.Text = "Подключение";
+            this.Load += new System.EventHandler(this.FormToConnect_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

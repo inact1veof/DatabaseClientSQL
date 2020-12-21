@@ -51,6 +51,7 @@
             this.ButtonDeleteQuery.TabIndex = 1;
             this.ButtonDeleteQuery.Text = "Удалить запрос";
             this.ButtonDeleteQuery.UseVisualStyleBackColor = true;
+            this.ButtonDeleteQuery.Click += new System.EventHandler(this.ButtonDeleteQuery_Click);
             // 
             // ListQueries
             // 
@@ -60,6 +61,7 @@
             this.ListQueries.Size = new System.Drawing.Size(374, 277);
             this.ListQueries.TabIndex = 2;
             this.ListQueries.SelectedIndexChanged += new System.EventHandler(this.ListQueries_SelectedIndexChanged);
+            this.ListQueries.DoubleClick += new System.EventHandler(this.ListQueries_DoubleClick);
             // 
             // MainFormShowQueries
             // 
@@ -71,6 +73,7 @@
             this.Controls.Add(this.ButtonCreateQuery);
             this.Name = "MainFormShowQueries";
             this.Text = "Менеджер управления запросами";
+            this.Load += new System.EventHandler(this.MainFormShowQueries_Load);
             this.ResumeLayout(false);
 
         }

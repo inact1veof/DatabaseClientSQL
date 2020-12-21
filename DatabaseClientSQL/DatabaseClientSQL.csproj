@@ -90,6 +90,13 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="QueriesHandler.cs" />
+    <Compile Include="QueryStorage.cs" />
+    <Compile Include="ShowQueryResult.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowQueryResult.Designer.cs">
+      <DependentUpon>ShowQueryResult.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -111,6 +118,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="ShowQueryResult.resx">
+      <DependentUpon>ShowQueryResult.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

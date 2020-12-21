@@ -12,6 +12,10 @@ namespace DatabaseClientSQL
 {
     public partial class FormToConnect : Form
     {
+        public static string addres;
+        public static string database;
+        public static string user;
+        public static string password;
         public FormToConnect()
         {
             InitializeComponent();
@@ -20,6 +24,20 @@ namespace DatabaseClientSQL
         private void button1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void FormToConnect_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonStartConnect_Click(object sender, EventArgs e)
+        {
+            addres = textBoxAdress.Text;
+            database = textBoxDatabase.Text;
+            user = textBoxUser.Text;
+            password = textBoxUserPassword.Text;
+            ConnectToDatabase.Connect();
         }
     }
 }

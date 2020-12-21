@@ -19,7 +19,8 @@ namespace DatabaseClientSQL
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            MainFormShowQueries form = new MainFormShowQueries();
+            form.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)
