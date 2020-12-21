@@ -21,5 +21,11 @@ namespace DatabaseClientSQL
         {
 
         }
+
+        private void btnForms_Click(object sender, EventArgs e)
+        {
+            WondowForms newForm = new WondowForms();
+            newForm.ShowDialog();
+        }
     }
 }

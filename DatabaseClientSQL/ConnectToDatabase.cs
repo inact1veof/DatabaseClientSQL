@@ -10,11 +10,12 @@ namespace DatabaseClientSQL
 {
     public static class ConnectToDatabase
     {
+        public static string connectionString = @"Data Source = (LocalDB)\MSSQLLocalDB; AttachDbFilename = C:\Users\Игорь\Desktop\DatabaseClientSQL\DatabaseClientSQL\DatabaseClientSQL\MainDatabase.mdf; Integrated Security = True;";
         public static SqlConnection conn;
 
         public static void Connect() //коннект к базе данных (fixme), не  хватает отбора данных, поодключается только к текущей локальной бд
         {
-            string connectionString = @"Data Source = (LocalDB)\MSSQLLocalDB; AttachDbFilename = C:\Users\Игорь\Desktop\DatabaseClientSQL\DatabaseClientSQL\DatabaseClientSQL\MainDatabase.mdf; Integrated Security = True;";
+            
             conn = new SqlConnection(ConfigurationManager.ConnectionStrings[connectionString].ConnectionString);
             using (conn)
             {
@@ -53,6 +54,7 @@ namespace DatabaseClientSQL
                     [AttributeName]       NVARCHAR (50)    NULL,
                     [AttributeLimitation] NVARCHAR (50)    NULL,
                     [AttributeType]       NVARCHAR (50)    NULL,
+                    [AttributeKey]        BOOLEAN          FALSE,
                     [TableID]             UNIQUEIDENTIFIER NULL,
                     PRIMARY KEY CLUSTERED ([AttributeID] ASC),
                     CONSTRAINT [FK_Attributes_Tables] FOREIGN KEY ([TableID]) REFERENCES [dbo].[Tables] ([TableID])
