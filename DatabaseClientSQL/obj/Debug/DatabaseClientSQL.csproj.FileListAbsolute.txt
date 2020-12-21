@@ -32,3 +32,5 @@ C:\Users\Игорь\Desktop\DatabaseClientSQL\DatabaseClientSQL\bin\Debug\Databa
 C:\Users\Игорь\Desktop\DatabaseClientSQL\DatabaseClientSQL\bin\Debug\DatabaseClientSQL.exe
 C:\Users\Игорь\Desktop\DatabaseClientSQL\DatabaseClientSQL\bin\Debug\DatabaseClientSQL.pdb
 C:\Users\Игорь\Desktop\DatabaseClientSQL\DatabaseClientSQL\obj\Debug\DatabaseClientSQL.FormCreateQuery.resources
+C:\Users\Игорь\Desktop\DatabaseClientSQL\DatabaseClientSQL\obj\Debug\DatabaseClientSQL.csprojAssemblyReference.cache
+C:\Users\Игорь\Desktop\DatabaseClientSQL\DatabaseClientSQL\obj\Debug\DatabaseClientSQL.FormToConnect.resources

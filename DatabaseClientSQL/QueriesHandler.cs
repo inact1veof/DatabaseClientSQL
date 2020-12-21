@@ -38,5 +38,10 @@ namespace DatabaseClientSQL
 
             return query;
         }
+        public static string ConcatStrins(int[] TableIDs, int[] AtrIDs)
+        {
+            string result = "";
+            return result;
+        }
     }
 }
