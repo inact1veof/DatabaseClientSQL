@@ -12,10 +12,16 @@ namespace DatabaseClientSQL
     {
         public static string connectionString = @"Data Source = (LocalDB)\MSSQLLocalDB; AttachDbFilename = C:\Users\Игорь\Desktop\DatabaseClientSQL\DatabaseClientSQL\DatabaseClientSQL\MainDatabase.mdf; Integrated Security = True;";
         public static SqlConnection conn;
+        public static string connectionString;
 
         public static void Connect() //коннект к базе данных (fixme), не  хватает отбора данных, поодключается только к текущей локальной бд
         {
+<<<<<<< HEAD
             
+=======
+
+            connectionString = $"server={FormToConnect.addres}; username={FormToConnect.user}; password= {FormToConnect.password}; database = {FormToConnect.database}";
+>>>>>>> 1b7250cc969f676e514216832ad8e7586e498e15
             conn = new SqlConnection(ConfigurationManager.ConnectionStrings[connectionString].ConnectionString);
             using (conn)
             {
@@ -99,6 +105,24 @@ namespace DatabaseClientSQL
                 }
                 catch { System.Windows.Forms.MessageBox.Show("Таблица не создана"); }
 
+                SqlCommand sqlCom4 = new SqlCommand();
+                sqlCom4.CommandText = @"CREATE TABLE Queries (
+                    [QueryID]          UNIQUEIDENTIFIER NOT NULL,
+                    [QueryName]        NVARCHAR (50)    NULL,
+                    [QueryText]        NVARCHAR (50)    NULL,
+                    PRIMARY KEY CLUSTERED ([QueryID] ASC)
+                )";
+                try
+                {
+                    conn.Open();
+
+                    sqlCom4.ExecuteNonQuery();
+
+                    conn.Close();
+
+                    System.Windows.Forms.MessageBox.Show("Таблица создана");
+                }
+                catch { System.Windows.Forms.MessageBox.Show("Таблица не создана"); }
             }
         }
     }

@@ -63,6 +63,24 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ConnectToDatabase.cs" />
+    <Compile Include="createAtr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="createAtr.Designer.cs">
+      <DependentUpon>createAtr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="createLink.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="createLink.Designer.cs">
+      <DependentUpon>createLink.cs</DependentUpon>
+    </Compile>
+    <Compile Include="createNewTable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="createNewTable.Designer.cs">
+      <DependentUpon>createNewTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -75,6 +93,12 @@
     <Compile Include="FormCreateQuery.Designer.cs">
       <DependentUpon>FormCreateQuery.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormToConnect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormToConnect.Designer.cs">
+      <DependentUpon>FormToConnect.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainFormShowQueries.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -84,17 +108,37 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="QueriesHandler.cs" />
+<<<<<<< HEAD
     <Compile Include="WondowForms.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="WondowForms.Designer.cs">
       <DependentUpon>WondowForms.cs</DependentUpon>
     </Compile>
+=======
+    <Compile Include="QueryStorage.cs" />
+    <Compile Include="ShowQueryResult.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowQueryResult.Designer.cs">
+      <DependentUpon>ShowQueryResult.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="createAtr.resx" />
+    <EmbeddedResource Include="createLink.resx">
+      <DependentUpon>createLink.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="createNewTable.resx">
+      <DependentUpon>createNewTable.cs</DependentUpon>
+    </EmbeddedResource>
+>>>>>>> 1b7250cc969f676e514216832ad8e7586e498e15
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormCreateQuery.resx">
       <DependentUpon>FormCreateQuery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormToConnect.resx">
+      <DependentUpon>FormToConnect.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainFormShowQueries.resx">
       <DependentUpon>MainFormShowQueries.cs</DependentUpon>
@@ -108,8 +152,13 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <EmbeddedResource Include="WondowForms.resx">
       <DependentUpon>WondowForms.cs</DependentUpon>
+=======
+    <EmbeddedResource Include="ShowQueryResult.resx">
+      <DependentUpon>ShowQueryResult.cs</DependentUpon>
+>>>>>>> 1b7250cc969f676e514216832ad8e7586e498e15
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
